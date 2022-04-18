@@ -62,8 +62,7 @@
 			children = (
 				4171FF49280D645D005FBEE8 /* Info.plist */,
 				4171FF48280D63A1005FBEE8 /* Data */,
-				4171FF29280D5D37005FBEE8 /* TouchdownApp.swift */,
-				4171FF2B280D5D37005FBEE8 /* ContentView.swift */,
+				4171FF4A280D67E6005FBEE8 /* App */,
 				4171FF2D280D5D38005FBEE8 /* Assets.xcassets */,
 				4171FF2F280D5D38005FBEE8 /* Preview Content */,
 			);
@@ -87,6 +86,15 @@
 				4171FF41280D6397005FBEE8 /* product.json */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		4171FF4A280D67E6005FBEE8 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				4171FF29280D5D37005FBEE8 /* TouchdownApp.swift */,
+				4171FF2B280D5D37005FBEE8 /* ContentView.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
