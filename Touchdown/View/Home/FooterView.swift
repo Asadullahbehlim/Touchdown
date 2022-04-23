@@ -13,10 +13,12 @@ struct FooterView: View {
         Text("We offer the most cutting edge, comfortable, lightweight and durable footall helmets in the market at affordable prices.")
                 .foregroundColor(.gray)
                 .multilineTextAlignment(.center)
+                .layoutPriority(2)
             
             Image("logo-lineal")
                 .renderingMode(.template)
                 .foregroundColor(.gray)
+                .layoutPriority(0)
             
             /// - Parameter renderingMode: The mode SwiftUI uses to render images.
             /// - Returns: A modified image
@@ -26,6 +28,7 @@ struct FooterView: View {
                 .fontWeight(.bold)
                 .foregroundColor(.gray)
                 .multilineTextAlignment(.center)
+                .layoutPriority(1)
         } // vstack
         .padding()
     }

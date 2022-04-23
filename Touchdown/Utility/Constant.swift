@@ -1,29 +1,29 @@
 //
-//  SwiftUIView.swift
+//  Constant.swift
 //  Touchdown
 //
-//  Created by Asadullah Behlim on 22/04/22.
+//  Created by Asadullah Behlim on 23/04/22.
 //
 
 import SwiftUI
 
-// data
+//Data
 
-// color
+//Color
+
 let colorBackground: Color = Color("ColorBackground")
 let colorGray: Color = Color(UIColor.systemGray4)
 
-//layout
+//Layout
 
-// UX
+//Ux
 
 //Api
 
-// Image
+//Image
 
-// font
+// Font
 
-// string
+// String
 
-//misc
-
+// Misc
