@@ -23,7 +23,7 @@ struct FooterView: View {
             /// - Parameter renderingMode: The mode SwiftUI uses to render images.
             /// - Returns: A modified image
             
-            Text("CopyRight © Asad \n All right reserved")
+            Text("CopyRight © Asad \n All Rights Reserved")
                 .font(.footnote)
                 .fontWeight(.bold)
                 .foregroundColor(.gray)
