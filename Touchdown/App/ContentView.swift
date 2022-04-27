@@ -28,6 +28,7 @@ struct ContentView: View {
             .frame(height: UIScreen.main.bounds.width / 1.595)
         // This will fix the layout rendering priority issue by using the screen's aspect ratio.
           //     .frame(height:300)
+
                 FooterView()
                 .padding(.horizontal)
             }
