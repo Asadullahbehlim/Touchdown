@@ -20,8 +20,8 @@ struct FooterView: View {
                 .foregroundColor(.gray)
                 .layoutPriority(0)
             
-            /// - Parameter renderingMode: The mode SwiftUI uses to render images.
-            /// - Returns: A modified image
+             // - Parameter renderingMode: The mode SwiftUI uses to render images.
+            // - Returns: A modified image
             
             Text("CopyRight © Asad \n All Rights Reserved")
                 .font(.footnote)
