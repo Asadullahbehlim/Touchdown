@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4137BD4D282CEAD900FB3FC8 /* RatingsSizesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4137BD4C282CEAD900FB3FC8 /* RatingsSizesView.swift */; };
 		415BDEBC28165C6600DFBD16 /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415BDEBB28165C6600DFBD16 /* CategoryModel.swift */; };
 		415BDEBE28165FF800DFBD16 /* CategoryItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415BDEBD28165FF800DFBD16 /* CategoryItemView.swift */; };
 		415BDEC02816669F00DFBD16 /* CategoryGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415BDEBF2816669F00DFBD16 /* CategoryGridView.swift */; };
@@ -40,6 +41,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4137BD4C282CEAD900FB3FC8 /* RatingsSizesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingsSizesView.swift; sourceTree = "<group>"; };
 		415BDEBB28165C6600DFBD16 /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
 		415BDEBD28165FF800DFBD16 /* CategoryItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItemView.swift; sourceTree = "<group>"; };
 		415BDEBF2816669F00DFBD16 /* CategoryGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryGridView.swift; sourceTree = "<group>"; };
@@ -179,6 +181,7 @@
 				41CD0843281CFD4E00AACAF1 /* NavigationBarDetailView.swift */,
 				415CFD15281E548B00317BED /* HeaderDetailView.swift */,
 				415CFD17281E58E300317BED /* TopPartDetailView.swift */,
+				4137BD4C282CEAD900FB3FC8 /* RatingsSizesView.swift */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -297,6 +300,7 @@
 				415BDEBC28165C6600DFBD16 /* CategoryModel.swift in Sources */,
 				4174AD642812704E00AFBB54 /* FooterView.swift in Sources */,
 				4160C480281BA77000E68410 /* BrandGridView.swift in Sources */,
+				4137BD4D282CEAD900FB3FC8 /* RatingsSizesView.swift in Sources */,
 				415FCEEF28140C8100537A92 /* FeaturedItemView.swift in Sources */,
 				4171FF2A280D5D37005FBEE8 /* TouchdownApp.swift in Sources */,
 				415BDEC228166E7000DFBD16 /* SectionView.swift in Sources */,

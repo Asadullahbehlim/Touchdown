@@ -33,7 +33,9 @@ struct ProductDetailView: View {
             VStack(alignment: .center, spacing:0 , content: {
                 
                 // Ratings + Sizes
-                
+                RatingsSizesView()
+                    .padding(.top, -20)
+                    .padding(.bottom, 10)
                 
                 // Description
                 ScrollView(.vertical, showsIndicators: false)  {
