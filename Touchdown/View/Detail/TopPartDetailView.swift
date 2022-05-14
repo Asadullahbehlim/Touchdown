@@ -9,6 +9,7 @@ import SwiftUI
 
 struct TopPartDetailView: View {
     // MARK: - Property
+    @EnvironmentObject var shop: Shop
     @State private var isAnimating: Bool = false
     
     // MARK: - Body
@@ -19,7 +20,7 @@ struct TopPartDetailView: View {
                 Text("price")
                     .fontWeight(.semibold)
                 
-                Text(sampleProduct.formattedPrice)
+                Text(shop.selectedProduct?.formattedPrice ??   sampleProduct.formattedPrice)
                     .font(.largeTitle)
                     .fontWeight(.black)
                     .scaleEffect(1.35, anchor: .leading
@@ -28,7 +29,7 @@ struct TopPartDetailView: View {
             } // vstack
             .offset(y: isAnimating ? -50 : -75)
             Spacer()
-            Image(sampleProduct.image)
+            Image(shop.selectedProduct?.image ?? sampleProduct.image)
                 .resizable()
                 .scaledToFit()
                 .offset(y: isAnimating ? 0 : -35)
